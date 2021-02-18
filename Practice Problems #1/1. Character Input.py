@@ -1,0 +1,8 @@
+print("Enter Your Name :")
+name = str(input())
+print("Enter Your Age :")
+age = input()
+hundred = 100 - int(age)
+print("How Many Times You Want The Message To Be Printed ?")
+reps = input()
+print(("Hey " + name + " you'll turn 100 after " + str(hundred) + " years!" + '\n')*int(reps))
