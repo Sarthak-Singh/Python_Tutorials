@@ -1,7 +1,5 @@
-class Solution:
-    def defangIPaddr(self, address: str) -> str:
-        return address.replace('.', '[.]')
+def smallerNumbersThanCurrent(nums):
 
 
-new = Solution()
-print(new.defangIPaddr("1.1.1.1"))
+
+print(smallerNumbersThanCurrent([8,1,2,2,3]))
